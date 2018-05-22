@@ -31,7 +31,6 @@ background: #fff;
 
 }
 .item img{
-  object-fit: cover;
   position: absolute;
   top: 50%;
   left: 0;
