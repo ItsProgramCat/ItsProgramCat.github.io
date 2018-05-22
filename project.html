@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" href="css/projectcss.css">
+    <link rel="stylesheet" href="css/diamonds.css">
+
+    <title>O|L Projects</title>
+    <nav>
+     <a href="index.html"><div class="logo">O|L</div></a>
+     <ul class="navlinks">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="https://github.com/ItsProgramCat">Github</a></li>
+       <li><a href="resume.html">Résumé</a></li>
+       <li><a class="active" href="project.html">Projects</a></li>
+       <li><a href="http://www.google.com">Blog</a></li>
+     </ul>
+   </nav>
+
+  </head>
+  <body>
+    <br>
+    <br>
+    <h1>Projects</h1>
+    <div class="diamondGrid">
+    <div class="item" id="item1"><a href="https://codepen.io/itsprogramcat/pen/yjPYNd"><img src="https://u.catgirl.host/e9xnbc.png"></a></div>
+      <div class="item diamonditem"></div>
+      <div class="item diamonditem"></div>
+      <div class="item diamonditem"></div>
+      <div class="item diamonditem"></div>
+      <div class="item diamonditem"></div>
+      <div class="item diamonditem"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="scripts/jquery.diamonds.js"></script>
+
+  <script type="text/javascript">
+    $(".diamondGrid").diamonds({
+    size : 220, // Size of diamonds in pixels. Both width and height.
+    gap : 5, // Pixels between each square.
+    hideIncompleteRow : false, // Hide last row if there are not enough items to fill it completely.
+    autoRedraw : true, // Auto redraw diamonds when it detects resizing.
+    itemSelector : ".item" // the css selector to use to select diamonds-items.
+});
+</script>
+
+  </body>
+  <footer>Written by Onassis Lawrence 2018</footer>
+</html>
