@@ -6,6 +6,19 @@
   <meta name="viewport" content="width=device-width" , initial-scale="1.0">
     <link rel="stylesheet" href="/css/projectcss.css">
     <link rel="stylesheet" href="/css/diamonds.css">
+      <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="/scripts/jquery.diamonds.js"></script>
+
+  <script type="text/javascript">
+    $(".diamondGrid").diamonds({
+    size : 220, // Size of diamonds in pixels. Both width and height.
+    gap : 5, // Pixels between each square.
+    hideIncompleteRow : false, // Hide last row if there are not enough items to fill it completely.
+    autoRedraw : true, // Auto redraw diamonds when it detects resizing.
+    itemSelector : ".item" // the css selector to use to select diamonds-items.
+});
+</script>
+
 
     <title>O|L Projects</title>
     <nav>
@@ -44,19 +57,7 @@
       <div class="item"></div>
 
     </div>
-    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="/scripts/jquery.diamonds.js"></script>
-
-  <script type="text/javascript">
-    $(".diamondGrid").diamonds({
-    size : 220, // Size of diamonds in pixels. Both width and height.
-    gap : 5, // Pixels between each square.
-    hideIncompleteRow : false, // Hide last row if there are not enough items to fill it completely.
-    autoRedraw : true, // Auto redraw diamonds when it detects resizing.
-    itemSelector : ".item" // the css selector to use to select diamonds-items.
-});
-</script>
-
+  
   </body>
   <footer>Written by Onassis Lawrence 2018</footer>
 </html>
