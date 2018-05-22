@@ -1,0 +1,190 @@
+body{
+  margin-top: 30px;
+  padding: 0;
+  background: url("https://u.catgirl.host/1b0q7j.jpg");
+}
+
+.diamondGrid{
+  width: 70%;
+  margin: 150px auto 0;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.item{
+  width: 220px;
+  height: 220px;
+background: -webkit-linear-gradient(#666, #DBC2A4, #fff);
+  opacity: 2;
+  transition: 0.5s;
+
+}
+
+.item img:hover{
+background:#666;
+
+}
+
+
+.item:hover{
+background: #fff;
+
+}
+.item img{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) scale(1.8);
+}
+
+
+
+
+
+h1{
+  font-family:'bebasNeue', sans-serif;
+  background: -webkit-linear-gradient(#666, #DBC2A4, #F8FFF4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-left: 0%;
+  margin-top: 5%;
+  font-size: 150px;
+
+}
+
+.logo{
+font-family:'bebasNeue', sans-serif;
+color: #DBC2A4;
+}
+
+.logo:hover{
+  background: -webkit-linear-gradient(#DBC2A4, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+@font-face {
+  font-family:'bebasNeue';
+  src: url('BebasNeue-Regular.woff');
+  font-style:normal;
+  font-weight:100;
+}
+
+@font-face {
+  font-family: 'bebasNeue';
+  src: url('BebasNeue-Regular.ttf');
+  font-style:normal;
+  font-weight:100;
+}
+
+.navlinks{
+  font-family:'bebasNeue';
+}
+
+nav{
+  position:fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: .3s;
+
+}
+
+.logo{
+font-family:'bebasNeue', sans-serif;
+color: #DBC2A4;
+}
+
+.logo:hover{
+  background: -webkit-linear-gradient(#DBC2A4, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.logo{
+font-family:'bebasNeue', sans-serif;
+color: -webkit-linear-gradient(#666,#DBC2A4, #fff)
+}
+
+.logo:hover{
+  background: -webkit-linear-gradient(#666,#DBC2A4, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav .logo{ padding: 22px 20px;
+  height: 80px;
+  float: left;
+  margin: 0;
+  font-size: 50px;
+  transition: .3s;
+
+}
+
+nav .navlinks{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+nav .navlinks li{
+  list-style: none;
+}
+
+nav .navlinks li a {
+  line-height: 80px;
+  color: #151515;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+nav .navlinks li a:focus {
+  outline: none;
+}
+
+nav .navlinks li a.active{
+  background: none;
+  color: #fff;
+  border-radius: 6px;
+}
+
+nav .navlinks li a:hover{
+  color:white;
+}
+
+
+nav{position: static;
+}
+
+footer{
+  font-family: 'bebasNeue', Oswald, 'sans-serif';
+position:center;
+
+}
+
+@media (max-width: 999px){
+    nav .navlinks{font-size: 15px;
+  margin-right: -250px;}
+
+  @media (max-width: 999px){
+    h1{font-size: 100px;
+    margin-left: 15%;}
+  }
+
+
+  
