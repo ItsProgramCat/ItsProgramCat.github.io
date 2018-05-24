@@ -11,3 +11,8 @@ footer p {font-size: 14px;
 
 p a img{height: 25px;
 width: 3%;}
+
+
+@media (max-width: 999px){
+  p a img{width: 10%;}
+}
